@@ -16,3 +16,38 @@ body{
 .yellowTxt{
     color:#ecdec3;
 }
+.accordion-button{
+    background:rgb(48, 48, 48)!important;
+    color:#ecdec3!important;
+    border-color:#ecdec3!important;
+    
+}
+.accordion-button.active{
+    background:rgb(48, 48, 48);
+    color:#ecdec3;
+    border-color:#ecdec3!important;
+}
+
+.accordion-body {
+    background:rgb(48, 48, 48);
+    color:#ecdec3;
+    border-color:#ecdec3!important;
+    
+}
+.accordion-button::after{
+    background:rgb(48, 48, 48)!important;
+    color:#ecdec3;
+    border-color:#ecdec3;
+}
+.accordion-item{
+    background:rgb(48, 48, 48)!important;
+    color:#ecdec3!important;
+    border-color:#ecdec3!important;
+}
+
+
+
+
+
+
+

@@ -19,9 +19,9 @@ export const Home = () => (
 			</div>
 
 			<div className="col-12 py-3 col-md-6 d-flex flex-column justify-content-center align-items-center  ">
-				<div className="col-12 my-5">
+				<div className="col-12 my-5 ">
 					<img
-						className="img-responsive rounded"
+						className="img-responsive rounded "
 						style={{ "max-height": "45vh", border: "2px solid #4e3658" }}
 						src="https://res.cloudinary.com/petrep/image/upload/v1632749359/portfolio/IMG_3730_kjewfq.jpg"
 						alt="Edian Ibarrola's headshot picture"

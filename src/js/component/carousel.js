@@ -3,8 +3,8 @@ import Carousel from "react-bootstrap/Carousel";
 
 export const MyCarousel = () => {
 	return (
-		<Carousel>
-			<Carousel.Item>
+		<Carousel variant="dark">
+			<Carousel.Item interval={15000}>
 				<a href="/code">
 					<img
 						className="d-block w-100 rounded"
@@ -13,7 +13,7 @@ export const MyCarousel = () => {
 					/>
 				</a>
 			</Carousel.Item>
-			<Carousel.Item>
+			<Carousel.Item interval={3000}>
 				<a href="/music">
 					<img
 						className="d-block w-100 rounded"
@@ -22,7 +22,7 @@ export const MyCarousel = () => {
 					/>
 				</a>
 			</Carousel.Item>
-			<Carousel.Item>
+			<Carousel.Item interval={3000}>
 				<a href="/film">
 					<img
 						className="d-block w-100 rounded"

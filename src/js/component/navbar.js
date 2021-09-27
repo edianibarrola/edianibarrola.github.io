@@ -11,7 +11,9 @@ export const Navbar = () => {
 			</Link>
 			<div className="ml-auto">
 				<Link to="/demo">
-					<button className="btn btn-primary">Home</button>
+					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
+						Home
+					</button>
 				</Link>
 			</div>
 		</nav>
