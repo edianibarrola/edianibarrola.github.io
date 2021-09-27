@@ -9,6 +9,9 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { CodePage } from "./views/code";
+import { FilmPage } from "./views/film";
+import { MusicPage } from "./views/music";
 
 //create your first component
 const Layout = () => {
@@ -27,6 +30,15 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/demo">
 							<Demo />
+						</Route>
+						<Route exact path="/code">
+							<CodePage />
+						</Route>
+						<Route exact path="/film">
+							<FilmPage />
+						</Route>
+						<Route exact path="/music">
+							<MusicPage />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />

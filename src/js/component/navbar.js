@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light mb-3">
+		<nav
+			className="navbar p-3 yellowTxt mb-3"
+			style={{ "border-bottom": "2px solid #4e3658", "background-color": "black" }}>
 			<Link to="/">
-				<span className="navbar-brand mb-0 h1">Edian Ibarrola</span>
+				<span className="navbar-brand mb-0  h1">EI</span>
 			</Link>
 			<div className="ml-auto">
 				<Link to="/demo">

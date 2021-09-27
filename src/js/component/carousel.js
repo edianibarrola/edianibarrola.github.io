@@ -5,25 +5,31 @@ export const MyCarousel = () => {
 	return (
 		<Carousel>
 			<Carousel.Item>
-				<img
-					className="d-block w-100 rounded"
-					src="https://res.cloudinary.com/petrep/image/upload/v1632756459/portfolio/codepic_1_r40pbk.jpg"
-					alt="First slide"
-				/>
+				<a href="/code">
+					<img
+						className="d-block w-100 rounded"
+						src="https://res.cloudinary.com/petrep/image/upload/v1632756459/portfolio/codepic_1_r40pbk.jpg"
+						alt="First slide"
+					/>
+				</a>
 			</Carousel.Item>
 			<Carousel.Item>
-				<img
-					className="d-block w-100 rounded"
-					src="https://res.cloudinary.com/petrep/image/upload/v1632756459/portfolio/musicpic_gqxffq.jpg"
-					alt="Second slide"
-				/>
+				<a href="/music">
+					<img
+						className="d-block w-100 rounded"
+						src="https://res.cloudinary.com/petrep/image/upload/v1632756459/portfolio/musicpic_gqxffq.jpg"
+						alt="Second slide"
+					/>
+				</a>
 			</Carousel.Item>
 			<Carousel.Item>
-				<img
-					className="d-block w-100 rounded"
-					src="https://res.cloudinary.com/petrep/image/upload/v1632756459/portfolio/filmpic_ya5ync.jpg"
-					alt="Third slide"
-				/>
+				<a href="/film">
+					<img
+						className="d-block w-100 rounded"
+						src="https://res.cloudinary.com/petrep/image/upload/v1632756459/portfolio/filmpic_ya5ync.jpg"
+						alt="Third slide"
+					/>
+				</a>
 			</Carousel.Item>
 		</Carousel>
 	);
