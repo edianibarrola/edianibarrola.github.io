@@ -10,9 +10,9 @@ export const Navbar = () => {
 				<span className="navbar-brand mb-0  h1">EI</span>
 			</Link>
 			<div className="ml-auto">
-				<Link to="/demo">
+				<Link to="/code">
 					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
-						Home
+						Code
 					</button>
 				</Link>
 			</div>
