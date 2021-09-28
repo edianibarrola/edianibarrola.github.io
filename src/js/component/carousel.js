@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export const MyCarousel = () => {
 	return (
-		<Carousel variant="dark">
-			<Carousel.Item interval={15000}>
+		<Carousel fade variant="dark">
+			<Carousel.Item interval={25000}>
 				<Link to="/code">
 					<img
 						className="d-block w-100 rounded"
@@ -14,7 +14,7 @@ export const MyCarousel = () => {
 					/>
 				</Link>
 			</Carousel.Item>
-			<Carousel.Item interval={3000}>
+			<Carousel.Item interval={2000}>
 				<Link to="/music">
 					<img
 						className="d-block w-100 rounded"
@@ -23,7 +23,7 @@ export const MyCarousel = () => {
 					/>
 				</Link>
 			</Carousel.Item>
-			<Carousel.Item interval={3000}>
+			<Carousel.Item interval={2000}>
 				<Link to="/film">
 					<img
 						className="d-block w-100 rounded"
