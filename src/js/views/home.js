@@ -39,8 +39,15 @@ export const Home = () => (
 						<i className="fab fa-github-alt fa-2x" />
 					</a>
 					{"  "}
-					<a href="http://www.instagram.com/the_garden_of_edian/">
+					<a href="http://www.instagram.com/edianmakesstuff/">
 						<i className="fab fa-instagram fa-2x" />
+					</a>
+					{"  "}
+					<a href="mailto:edianibarrola@gmail.com">
+						<i className="fas fa-envelope fa-2x" />
+					</a>
+					<a href="mailto:edianibarrola@gmail.com">
+						<i className="fab fa-linkedin-in fa-2x" />
 					</a>
 				</div>
 			</div>

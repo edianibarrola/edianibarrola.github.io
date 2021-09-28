@@ -14,7 +14,7 @@ export const CodePage = () => {
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>Pokependium </Accordion.Header>
 							<Accordion.Body>
-								<a href="https://pokependium.herokuapp.com/">
+								<a href="https://www.pokependium.com/">
 									<img
 										className="shadow "
 										style={{
@@ -124,7 +124,7 @@ export const CodePage = () => {
 						<Accordion.Item eventKey="2">
 							<Accordion.Header>8-bit Music Player </Accordion.Header>
 							<Accordion.Body>
-								<a href="https://pokependium.herokuapp.com/">
+								<a href="http://www.edianibarrola.com/musicPlayerWithApi/">
 									<img
 										className="shadow "
 										style={{
@@ -166,7 +166,7 @@ export const CodePage = () => {
 						<Accordion.Item eventKey="3">
 							<Accordion.Header>Traffic Light</Accordion.Header>
 							<Accordion.Body>
-								<a href="https://edianibarrola.github.io/React-Traffic-Light-with-Crossing-Sign/">
+								<a href="https://www.edianibarrola.com/React-Traffic-Light-with-Crossing-Sign/">
 									<img
 										className="shadow "
 										style={{
@@ -198,6 +198,49 @@ export const CodePage = () => {
 									<li> CSS/SCSS</li>
 									<li> Javascript</li>
 									<li>React</li>
+								</ul>
+							</Accordion.Body>
+						</Accordion.Item>
+						<Accordion.Item eventKey="4">
+							<Accordion.Header>QR Template Generator</Accordion.Header>
+							<Accordion.Body>
+								<a href="https://realself-qr-code-maker.herokuapp.com">
+									<img
+										className="shadow "
+										style={{
+											"min-width": "150px",
+											width: "35vw",
+											height: "30vh",
+											"object-fit": "scale-down",
+											float: "right"
+										}}
+										src="https://res.cloudinary.com/petrep/image/upload/v1632857758/portfolio/Screen_Shot_2021-09-28_at_3.35.07_PM_ly1kiq.png"
+										alt="A photo of Edian Ibarrola's QR code generator Web Application"
+									/>
+								</a>
+								<p>
+									<b>
+										My wife works harder than <i>anyone</i> in the world{" "}
+									</b>
+									<i>(except for me in case you are a potential employer). </i>
+									We both work from home and I am fortunate to get to hear her eloquent and loud work
+									conversations <i>every day! </i> Since she supported me while I studied,
+									<i> this App is a great way to start paying her back</i> for everything.
+									<i> Happy wife = happy life. </i>
+								</p>
+								<p>
+									<i>
+										<b>Click the image to see the app</b>
+									</i>
+								</p>
+								Built with:
+								<ul className="menu">
+									<li>Html5</li>
+									<li> CSS/SCSS</li>
+									<li> Javascript</li>
+									<li>React</li>
+									<li>Canvas</li>
+									<li>External Api</li>
 								</ul>
 							</Accordion.Body>
 						</Accordion.Item>
