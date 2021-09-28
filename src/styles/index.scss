@@ -32,6 +32,7 @@ body{
     background:rgb(48, 48, 48);
     color:#ecdec3;
     border-color:#ecdec3!important;
+    min-height: 35vh;
     
 }
 .accordion-button::after{
@@ -43,11 +44,36 @@ body{
     background:rgb(48, 48, 48)!important;
     color:#ecdec3!important;
     border-color:#ecdec3!important;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
 }
 
+ul.menu li {
 
+    display:inline;
+    padding-right:0.5em;
+    
+}
 
+ul.menu li:before{
 
+    content: ' \203B ';
+    padding-right:0.5em;
+}
 
-
-
+.shadow{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
