@@ -17,7 +17,27 @@ export const Navbar = () => {
 			<div className="ml-auto">
 				<Link to="/code">
 					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
-						Code
+						<i className="fas fa-code" />
+					</button>
+				</Link>
+				<Link to="/music">
+					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
+						<i className="fas fa-music" />
+					</button>
+				</Link>
+				<Link to="/film">
+					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
+						<i className="fas fa-video" />
+					</button>
+				</Link>
+				<Link to="/photo">
+					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
+						<i className="fas fa-camera-retro" />
+					</button>
+				</Link>
+				<Link to="/about">
+					<button className="btn yellowTxt" style={{ border: "2px solid #4e3658" }}>
+						<i className="far fa-envelope" />
 					</button>
 				</Link>
 			</div>

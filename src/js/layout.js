@@ -12,6 +12,8 @@ import { Footer } from "./component/footer";
 import { CodePage } from "./views/code";
 import { FilmPage } from "./views/film";
 import { MusicPage } from "./views/music";
+import { AboutMePage } from "./views/aboutme";
+import { PhotoPage } from "./views/photo";
 
 //create your first component
 const Layout = () => {
@@ -39,6 +41,12 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/music">
 							<MusicPage />
+						</Route>
+						<Route exact path="/photo">
+							<PhotoPage />
+						</Route>
+						<Route exact path="/about">
+							<AboutMePage />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />

@@ -2,6 +2,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 import { MyCarousel } from "../component/carousel";
+import { Link } from "react-router-dom";
 
 export const Home = () => (
 	<div className=" container  text-center  mt-3 ">
@@ -20,12 +21,14 @@ export const Home = () => (
 
 			<div className="col-12 py-3 col-md-6 d-flex flex-column justify-content-center align-items-center  ">
 				<div className="col-12 my-5 ">
-					<img
-						className="img-responsive rounded "
-						style={{ "max-height": "45vh", border: "2px solid #4e3658" }}
-						src="https://res.cloudinary.com/petrep/image/upload/v1632749359/portfolio/IMG_3730_kjewfq.jpg"
-						alt="Edian Ibarrola's headshot picture"
-					/>
+					<Link to="/about">
+						<img
+							className="img-responsive rounded "
+							style={{ "max-height": "45vh", border: "2px solid #4e3658" }}
+							src="https://res.cloudinary.com/petrep/image/upload/v1632749359/portfolio/IMG_3730_kjewfq.jpg"
+							alt="Edian Ibarrola's headshot picture"
+						/>
+					</Link>
 				</div>
 				<div className="mx-auto col-12 d-flex align-items-center justify-content-around">
 					<a href="http://www.edianibarrola.com">
@@ -44,10 +47,10 @@ export const Home = () => (
 					</a>
 					{"  "}
 					<a href="mailto:edianibarrola@gmail.com">
-						<i className="fas fa-envelope fa-2x" />
+						<i className="fab fa-linkedin-in fa-2x" />
 					</a>
 					<a href="mailto:edianibarrola@gmail.com">
-						<i className="fab fa-linkedin-in fa-2x" />
+						<i className="fas fa-envelope fa-2x" />
 					</a>
 				</div>
 			</div>
