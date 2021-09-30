@@ -2,17 +2,23 @@ import React from "react";
 
 export const AboutMePage = () => {
 	return (
-		<div className="container w-50">
+		<div style={{ "min-width": "300px" }} className="container w-50">
 			<div className="row">
 				<div className="col">
 					<h1>Edian Ibarrola</h1>
 					<p>
-						I was born in Mexico and raised in Miami. I enjoy capturing the real world. Currently I am a
-						self employed Full Stack Web Developer and part-time Instructor for 4Geeks Coding Academy. On my
-						spare time I make stuff, make music, garden, do Improv and play with my Wife , cats, dog, snake
+						I was born in Mexico, raised in Hollywood and currently living in Miami. I enjoy creating things
+						and being helpful. I am a Full Stack Web Developer and part-time Instructor for 4Geeks Coding
+						Academy. Prior to my current position, I helped run KidTec. I managed social media, curriculum
+						development and taught students our extracurricular STEM based Coding program at several
+						elementary schools throughout South Florida.
+					</p>
+					<p>
+						On my {'"spare"'} time I design and make stuff with my 3d printer, sculpt with clay, airbrush,
+						make music, garden, do improv and sing musicals with my Wife and play with my cats, dog, snake
 						and tortoises. If I had to pick one, I would choose Lord of the Rings over any other trilogy. I
-						Also collect Pokemon stuff and am fascinated by ancient ruins so choosing a birthday or
-						christmas gift for me is very easy!
+						have been collecting Pokemon since the red and blue days and am fascinated by ancient ruins so
+						choosing a birthday or christmas gift for me is very easy!
 					</p>
 					<p>Currently Living in Miami - Open to working remote.</p>
 
@@ -20,19 +26,21 @@ export const AboutMePage = () => {
 					<div className="col">
 						<p>
 							<a href="mailto:edianibarrola@gmail.com">
-								<i className="fas fa-envelope fa-2x" />
-								{"   "}
+								{"    "}
+								<i className="fas m-2 fa-envelope fa-2x" />
+								{"    "}
 								Please email me with any questions or suggestions.
 							</a>
 						</p>
-						<a
-							href="https://res.cloudinary.com/petrep/image/upload/v1632859909/portfolio/Edian_Ibarrola_Resume_10-08-2021-09-58-41_oyoynt.pdf"
-							download>
-							<p>
-								<i className="fas fa-file-pdf fa-2x" />
-								{"  "} Download a copy of my CV.
-							</p>
-						</a>
+						<p>
+							<a
+								href="https://res.cloudinary.com/petrep/image/upload/v1633025865/portfolio/edianibarrolaresume_ulp8se.pdf"
+								download>
+								<i className="fas m-2 fa-file-pdf fa-2x" />
+								{"    "}
+								Download a copy of my CV.
+							</a>
+						</p>
 					</div>
 				</div>
 			</div>
