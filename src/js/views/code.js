@@ -241,10 +241,11 @@ export const CodePage = () => {
 								</ul>
 							</Accordion.Body>
 						</Accordion.Item>
+
 						<Accordion.Item eventKey="4">
-							<Accordion.Header>Traffic Light</Accordion.Header>
+							<Accordion.Header>RS War Cardgame</Accordion.Header>
 							<Accordion.Body>
-								<a href="https://www.edianibarrola.com/React-Traffic-Light-with-Crossing-Sign/">
+								<a href="https://rswar.herokuapp.com/">
 									<img
 										className="shadow "
 										style={{
@@ -254,27 +255,27 @@ export const CodePage = () => {
 											"object-fit": "scale-down",
 											float: "right"
 										}}
-										src="https://res.cloudinary.com/petrep/image/upload/v1632847772/portfolio/Screen_Shot_2021-09-28_at_12.49.05_PM_c50sky.png"
-										alt="A photo of Edian Ibarrola's Traffic Light Web Application"
+										src="https://res.cloudinary.com/petrep/image/upload/v1633639297/portfolio/ezgif.com-gif-maker_2_xyrhic.gif"
+										alt="A photo of Edian Ibarrola's RS WAR card game Web Application"
 									/>
 								</a>
 								<p>
-									<b>Practice with React / Js / HTML / CSS </b>
-									Working from home made me miss staring at traffic lights every morning.
-									<i> With this simple little web app </i> I can click my day away. No more waiting
-									for the light to switch.
-									<i> I go when I wanna!</i>
+									<b>Practice Speed and Logic with React / Js / HTML / CSS </b>I made this as a quick
+									challenge for my self in speed and logic. I might add some more features and polish
+									it up.
+									<i> Theres not much to it </i> I wanted to recreate the game based off the rules.
+									<i> Make apps not war!</i>
 								</p>
 								<p>
 									{" "}
-									<a href="https://www.edianibarrola.com/React-Traffic-Light-with-Crossing-Sign/">
+									<a href="https://rswar.herokuapp.com/">
 										<i>
 											<b>Click here or the image to see the app</b>
 										</i>
 									</a>
 								</p>
 								<p>
-									<a href="https://github.com/edianibarrola/React-Traffic-Light-with-Crossing-Sign">
+									<a href="https://github.com/edianibarrola/rswar">
 										<i className="fab fa-github-alt m-1" /> <b>Click here for github.</b>
 									</a>
 								</p>
