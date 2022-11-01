@@ -34,7 +34,7 @@ export const AboutMePage = () => {
 						</p>
 						<p>
 							<a
-								href="https://res.cloudinary.com/petrep/image/upload/v1633025865/portfolio/edianibarrolaresume_ulp8se.pdf"
+								href="https://res.cloudinary.com/petrep/image/upload/v1667318954/portfolio/Edian_Ibarrola_Resume_2022_f9wade.pdf"
 								download>
 								<i className="fas m-2 fa-file-pdf fa-2x" />
 								{"    "}
